@@ -1,0 +1,182 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5dc; /* Light beige background for an organic feel */
+  color: #2f4f4f; /* Dark slate gray for text */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #000000; /* Black background */
+  color: #00ff00; /* Bright green text */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-nav {
+  background-color: #000000; /* Black background */
+  padding: 10px;
+  border-bottom: 2px solid #00ff00; /* Green border for separation */
+}
+
+.App-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.App-nav li {
+  display: inline;
+}
+
+.App-nav a {
+  text-decoration: none;
+  color: #00ff00; /* Bright green text */
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 1px solid #00ff00; /* Green border */
+  border-radius: 3px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.App-nav a:hover {
+  background-color: #00ff00; /* Green background */
+  color: #000000; /* Black text */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff; /* White background */
+  animation: fadeOut 3s ease-in-out; /* Fade-out animation */
+}
+
+.Loader img {
+  width: 50%; /* Set the width to 50% of the screen */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 0; /* Remove rounded corners */
+  box-shadow: none; /* Remove shadow for seamless blending */
+}
+
+/* Fade-out animation */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.page-container {
+  padding: 20px;
+  text-align: center;
+}
+
+h1, p {
+  color: #00ff00; /* Bright green text */
+}
+
+p {
+  color: #8b4513; /* SaddleBrown for paragraph text */
+}
+
+button {
+  background-color: #000000; /* Black background */
+  color: #00ff00; /* Bright green text */
+  border: 2px solid #00ff00;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+  background-color: #00ff00; /* Green background */
+  color: #000000; /* Black text */
+}
+
+.organic-theme {
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  background-color: #8fbc8f; /* Sage green for navigation background */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff; /* White text for contrast */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff6347; /* Vibrant tomato color for hover effect */
+}
+
+h1, h2 {
+  color: #556b2f; /* Dark olive green for headings */
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+header {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fafad2; /* Light goldenrod yellow for content background */
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

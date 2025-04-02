@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: green;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.App-header {
+  border: 1px solid green;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.CommandLine {
+  border: 1px solid green;
+  padding: 10px;
+  margin-top: 10px;
+  height: 50%;
+  overflow-y: auto;
+}
+
+.FileExplorer {
+  border: 1px solid green;
+  padding: 10px;
+  height: 50%;
+  overflow-y: auto;
+}
